@@ -19,7 +19,7 @@ namespace Epam.Upskill.Module11UnitTesting
 
 				string output;
 				output = CharOperations.GetMaxDistinctChars(input);
-				//	output = CharOperations.GetMaxSameLetters(input);
+				//output = CharOperations.GetMaxSameLetters(input);
 				//output = CharOperations.GetMaxSameDigits(input);
 
 				Console.WriteLine();
