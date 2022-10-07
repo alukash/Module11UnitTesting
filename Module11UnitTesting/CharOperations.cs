@@ -38,7 +38,7 @@ namespace Epam.Upskill.Module11UnitTesting
 				}
 				strings = strings.Append(strTemp).ToArray();
 			}
-			return strings.OrderByDescending(str => str.Length).First();
+			return strings.OrderByDescending(str => str.Length).FirstOrDefault();
 		}
 
 		public static string GetMaxSameLetters(string input)
@@ -85,7 +85,7 @@ namespace Epam.Upskill.Module11UnitTesting
 				}
 				stringsOut = stringsOut.Append(strTemp).ToArray();
 			}
-			return stringsOut.OrderByDescending(str => str.Length).First();
+			return stringsOut.OrderByDescending(str => str.Length).FirstOrDefault();
 		}
 	}
 }

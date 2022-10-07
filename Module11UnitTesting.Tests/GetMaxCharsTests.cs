@@ -6,10 +6,6 @@ namespace Module11UnitTesting.Tests
 	[TestFixture]
 	public class CharOperationsTest
 	{
-		[SetUp]
-		public void SetUp()
-		{
-		}
 
 		[TestCase("a", "a")]
 		[TestCase("1?#", "1?#")]
